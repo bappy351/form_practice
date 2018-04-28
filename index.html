@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="parent">
+        <form method="" action="">
+
+            <div class="form-group">
+                <label for="username">Username:</label> <br>
+                <input class="inputfield" id="username" placeholder="username" name="" type="text" maxlength="15"><br> <br>
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email:</label> <br>
+                <input class="email" id="Email" name="" placeholder="Email" type="text"><br> <br>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label> <br>
+                <input class="password" id="password" name="" placeholder="password" type="password" maxlength="20"><br><br>
+            </div>
+
+            <div class="form-group">
+                <label for="Gender">Gender:</label> <br>
+                <input type="radio" name="gender" checked>Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Others
+                <br><br>
+            </div>
+
+            <div class="form-group">
+                <label for="Education">Education: </label>
+                <select name="" id="">
+              <option value="">SSC</option>
+              <option value="">HSC</option>
+              <option value="" selected>BSC</option>
+              <option value="">BBA</option>
+              <option value="">MSC</option>
+              <option value="">MBA</option>
+          </select>
+                <br> <br>
+            </div>
+
+
+            <div class="form-group">
+                <label for="languages">Programming Languages:</label> <br>
+                <input type="checkbox" name="languages" checked>C <br>
+
+                <input type="checkbox" name="languages">C++ <br>
+
+                <input type="checkbox" name="languages">Java <br>
+
+                <input type="checkbox" name="languages">Python <br><br>
+            </div>
+
+            <div class="form-group">
+                <label for="msg">Messege:</label><br>
+
+                <textarea class="textarea" rows="6" cols="30" placeholder="Write a short comment in 50-100 words..."></textarea>
+            </div>
+
+            <input class="button" type="submit" value="Save Data">
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

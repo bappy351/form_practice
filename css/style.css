@@ -1,0 +1,84 @@
+.parent {
+    margin: 0 auto;
+    width: 40%;
+    border: 2px solid rebeccapurple;
+    padding: 20px;
+}
+
+.inputfield {
+    width: 50%;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.inputfield:hover {
+    border: 1px solid cadetblue;
+}
+
+.email{
+    width: 50%;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.email:hover {
+    border: 1px solid cadetblue;
+}
+
+.password{
+    width: 50%;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.password:hover {
+    border: 1px solid cadetblue;
+}
+
+.textarea{
+    width: 50%;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.textarea:hover {
+    border: 1px solid cadetblue;
+}
+
+.button{
+    padding: 7px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+}
+
+::-webkit-input-placeholder {
+    color: rebeccapurple;
+}
+
+::-moz-placeholder {
+    color: rebeccapurple;
+}
+
+:-ms-input-placeholder {
+    color: rebeccapurple;
+}
+
+:-moz-placeholder {
+    color: rebeccapurple;
+}
